@@ -7,6 +7,9 @@
 <script>
 import NavBar from '~/components/NavBar'
 export default {
+  components: {
+    NavBar
+  },
   head() {
     return {
       titleTemplate: '%s - Real world events',
@@ -19,9 +22,6 @@ export default {
         }
       ]
     }
-  },
-  components: {
-    NavBar
   }
 }
 </script>
